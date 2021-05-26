@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Denis Mauricio Gaurón</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- MENÚ -->
+    <header>
+        <nav class="nav-menu">
+            <div class="logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="menu">
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="menu-movil">
+                    <li><a href="#intro">Inicio</a></li>
+                    <li><a href="#sobremi">Quien soy</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- FIN MENÚ -->
+    <!-- SECCIÓN PRINCIPAL -->
+    <main class="hero" id="intro">
+        <div class="container intro">
+            <div class="avatar">
+                <img src="img/avatar.svg" alt="">
+            </div>
+            <div class="nombre">
+                <h1>Denis Mauricio Gaurón</h1>
+                <a class="btn-arrow" href="#sobremi"><i class="fas fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </main>
+    <!-- FIN SECCIÓN PRINCIPAL -->
+    <!-- SECCIÓN SOBRE MI -->
+    <section class="sobre-mi" id="sobremi">
+        <div class="container container-sobre-mi">
+            <div class="img-sobre-mi">
+                <img src="img/programa-alvear-imprime-3d.jpg" alt="">
+            </div>
+            <div class="info-sobre-mi">
+                <h1>Un poco de mi</h1>
+                <p>¡Hola! Soy <strong>Denis Mauricio Gauron</strong>. Vivo en Argentina, en el departamento de General
+                    Alvear, al sur de
+                    la Provincia de Mendoza.</p>
+                <p>Soy Técnico Analista Programador recibido del IES 9-012 “Informática”, en el año 2.011. Llevo más de
+                    12 años en el rubro de armado y reparación de PC.</p>
+                <p>Desde el año 2.015 comencé a trabajar en la Agencia Municipal de Ciencia y Tecnología de la
+                    Municipalidad de General Alvear, donde realizo diferentes capacitaciones en “Herramientas de
+                    Google”, “Alfabetización Digital”, “Introducción al Mundo de la Impresión 3D”, “Modelado 3D para
+                    niños” (Paint3D), “Armado y reparación de las Impresoras 3D”, también como crear sitios o
+                    e-commerces con WordPress, entre otras.</p>
+                <p>En el año 2.017 comencé a formarme en el manejo de Adobe Photoshop, Adobe Illustrator, CorelDRAW, lo
+                    que me permitió realizar trabajos en redes sociales y diseño. Durante esos años retomé el lado de la
+                    programación y comencé nuevamente a estudiar tecnologías como HTML, CSS, JS y WordPress lo que me
+                    permitió que, en el 2.019, entrara como Desarrollador Front-End Junior en la empresa Dilook Media,
+                    donde se llevan a cabo proyectos de desarrollo de sitios y e-commerces basados en dichas
+                    tecnologías.</p>
+                <p>En lo personal, me considero una persona autodidacta, creativa, constantemente me capacito en
+                    tecnologías y/o programas que utilizo diariamente. Cualquier tecnología que se proponga uno estudiar
+                    requiere mucho trabajo, esfuerzo y voluntad.</p>
+                <p class="frase">"Si lo puedes imaginar, lo puedes programar"</p>
+            </div>
+        </div>
+        <!-- BOX LENGUAJE -->
+        <div class="lenguajes">
+            <div class="container box-lenguajes">
+                <div class="bx html">
+                    <i class="fab fa-html5 zoom"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="bx css">
+                    <i class="fab fa-css3-alt zoom"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="bx js">
+                    <i class="fab fa-js zoom"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="bx git">
+                    <i class="fab fa-git-alt zoom"></i>
+                    <span>Git</span>
+                </div>
+                <div class="bx wp">
+                    <i class="fab fa-wordpress-simple zoom"></i>
+                    <span>WordPress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECCIÓN SOBRE MI -->
+    <!-- SECCIÓN SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="servicios-titulo">
+            <h1>Servicios</h1>
+        </div>
+        <div class="container cards-servicios">
+            <div class="card">
+                <span><i class="fas fa-layer-group"></i></span>
+                <h2>Diseño Web</h2>
+                <p>Diseño único, de alto impacto, centrado en el usuario para todo tipo de dispositivos.</p>
+            </div>
+            <div class="card">
+                <span><i class="fas fa-code"></i></span>
+                <h2>Desarrollo Web</h2>
+                <p>Desarrollamos funcionalidades a la medida según los requerimientos específicos de cada cliente.</p>
+            </div>
+            <div class="card">
+                <span><i class="fas fa-wrench"></i></span>
+                <h2>Mantenimiento & Soporte</h2>
+                <p>No te compliques con el mantenimiento de tu web, yo me encargo de todo los 365 días del año y duerme
+                    tranquilo.</p>
+            </div>
+        </div>
+    </section>
+    <!-- SECCIÓN SERVICIOS -->
+    <section class="contacto" id="contacto">
+        <div class="container box-contacto">
+            <div class="contacto-info">
+                <h1>Info Contacto</h1>
+                <div class="contacto-items">
+                    <p class="titulo"><i class="fab fa-whatsapp"></i> Teléfono:</p>
+                    <p class="descripcion"><a href="tel: +5492525522944">+54 9 2625 5229 44</a></p>
+                </div>
+                <div class="contacto-items">
+                    <p class="titulo"><i class="far fa-envelope"></i> Email:</p>
+                    <p class="descripcion"><a href="mailto:denismauriciogauron@gmail.com">denismauriciogauron@gmail.com</a></p>
+                </div>
+                <div class="contacto-items">
+                    <p class="titulo"><i class="fas fa-map-marker-alt"></i> Ubicación:</p>
+                    <p class="descripcion">Rividavia 449, General Alvear, Mendoza, Argentina.</p>
+                </div>
+            </div>
+            <div class="contacto-form">
+                <h1>Contáctame</h1>
+                <form action="#">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido *">
+                    <input type="email" name="email" id="email" placeholder="Email *">
+                    <input type="tel" name="tel" id="tel" placeholder="Teléfono *">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit" class="btn-enviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container box-footer">
+            <div class="copyright">
+                <p>&copy; 2021 Denis Mauricio Gauron | Todos los derechos reservados</p>
+            </div>
+            <div class="redes-sociales">
+                <ul>
+                    <li><a href="https://www.facebook.com/denis.gauron" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/gaurondenis/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/denis-mauricio-gauron-43aa0a12b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/dg1991" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
