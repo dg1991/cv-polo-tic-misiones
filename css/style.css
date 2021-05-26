@@ -201,7 +201,6 @@ header.sticky .nav-menu .menu ul li a:hover,
 
 .zoom:hover {
     transform: scale(1.1);
-    cursor: pointer;
 }
 
 .fa-html5:hover {
@@ -228,6 +227,10 @@ header.sticky .nav-menu .menu ul li a:hover,
     background: #f9f9f9;
     text-align: center;
 }
+
+.cards-servicios .card p, .cards-servicios .card h2{
+    cursor: default;
+    }
 
 .cards-servicios {
     display: flex;
