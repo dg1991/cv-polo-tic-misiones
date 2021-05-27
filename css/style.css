@@ -328,7 +328,7 @@ input:focus {
     border: 2px solid rgb(255, 153, 0);
 }
 
-.btn-enviar {
+.btn {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -343,7 +343,7 @@ input:focus {
     cursor: pointer;
 }
 
-.btn-enviar:hover {
+.btn:hover {
     background-color: var(--colorBlanco);
     color: var(--colorPrincipal);
     border: 2px solid var(--colorPrincipal);

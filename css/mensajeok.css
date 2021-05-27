@@ -1,0 +1,22 @@
+body {
+    background: #ecf0f1;
+}
+.box-mensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box-mensaje h1 {
+    text-align: center;
+}
+
+.box-mensaje span {
+    font-size: 8rem;
+}
+
+.fa-envelope-open-text {
+    color:#d35515;
+}
